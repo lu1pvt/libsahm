@@ -1,13 +1,13 @@
 # libsahm
 A bare-metal C library implementing a Hyper-Modular Arithmetic System via RNS and Geometric Algebra.
-# SAHM: Hyper-Modular Arithmetic System v4.1 🧊
+# SAHM: Hyper-Modular Arithmetic System v4.1 
 > *Redesigning computer arithmetic from the ALU up.*
 
 **SAHM** (Sistema Aritmético Hiper-Modular) is an experimental bare-metal C library that reimplements basic arithmetic operations, bypassing traditional floating-point limitations and standard integer overflows.
 
 This project merges concepts from modern cryptography (**Residue Number Systems / Chinese Remainder Theorem**) with two-dimensional topology (**Geometric Algebra and Euler Rotations**) to build a computational hyperspace where negative magnitudes do not exist.
 
-## 🚀 Core Concepts
+##  Core Concepts
 
 1. **Remainder Isolation (RNS):** Numbers do not dissolve into infinite decimals. They are packed into a "coprime prism" (base `{2, 3, 5}`). Addition, subtraction, and multiplication occur in parallel without propagating intermediate carries.
 2. **Strict Sign Rotor:** Negativity is treated as a geometric rotation ($\pi$ radians or `180°`), not as a magnitude less than zero. This is implemented using Binary Angular Measure (BAM), where the most significant bit (`0x80000000`) dictates the vector's direction.
