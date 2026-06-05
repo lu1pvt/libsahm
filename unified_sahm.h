@@ -1,3 +1,16 @@
+/* ==============================================================================
+ * PROJECT: SAHM v4.1 (Hyper-Modular Arithmetic System)
+ * FILE:    unified_sahm.h
+ * * DESCRIPTION: 
+ * Hardware instruction set stress benchmark. Validates zero-crossings, underflow 
+ * evasion, sign asymmetry (XOR logic gates), and Kernel Panic protections.
+ * * AUTHOR:
+ * Volney Torres Almendro
+ * Low-Level Computing Laboratory
+ * San Juan, Argentina
+ * DATE: June 2026
+ * ============================================================================== */
+
 /* =================================================================
  * UNIFIED HYPER-MODULAR LIBRARY (SAHM v4.1)
  * Integracion CRT (Teorema Chino del Resto) + ALU Completa
