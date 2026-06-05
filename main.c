@@ -1,3 +1,15 @@
+/* ==============================================================================
+ * PROJECT: SAHM v4.1 (Hyper-Modular Arithmetic System)
+ * FILE:    main.c
+ * * DESCRIPTION: 
+ * Hardware instruction set stress benchmark. Validates zero-crossings, underflow 
+ * evasion, sign asymmetry (XOR logic gates), and Kernel Panic protections.
+ * * AUTHOR:
+ * Volney Torres Almendro
+ * Low-Level Computing Laboratory
+ * San Juan, Argentina
+ * DATE: June 2026
+ * ============================================================================== */
 #include <stdio.h>
 #include "unified_sahm.h"
 
